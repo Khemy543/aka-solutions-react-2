@@ -1,0 +1,22 @@
+body{
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+
+ .zoom{
+   max-width:350px;
+   height: 400px;
+  object-fit:cover;
+  transition: transform .4s;
+}
+
+.zoom:hover{
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+@media(max-width:400px) {
+  .reponsive-image{
+    max-width:400px
+  }  
+}
+
